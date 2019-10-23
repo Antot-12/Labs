@@ -8,10 +8,9 @@ if a == 1:
     if operation == "+":
         result = x + y
     elif operation == '-':
-        result = x - y
     elif operation == '*':
         result = x * y
-    elif operation == "/":
+    elif (operation == "/") and (y != 0):
         result = x / y
     else:
         print("Ви поламали калькулятор, перезапустіть його")
@@ -25,4 +24,4 @@ elif a == 2:
 elif a == 3:
     print("Версія: v1.0 \n ""©BOMBA Production \n ""Antonio Shyrko")
 else:
-    print('Ей, придурок, тут тільки 3 можливих функцій!!!')
+    print('Гей, придурок, тут тільки 3 можливих функцій!!!')
