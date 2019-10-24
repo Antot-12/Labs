@@ -8,6 +8,7 @@ if a == 1:
     if operation == "+":
         result = x + y
     elif operation == '-':
+        result = x - y
     elif operation == '*':
         result = x * y
     elif (operation == "/") and (y != 0):
