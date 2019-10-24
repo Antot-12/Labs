@@ -24,4 +24,4 @@ elif a == 2:
 elif a == 3:
     print("Версія: v1.0 \n ""©BOMBA Production \n ""Antonio Shyrko")
 else:
-    print('Гей, придурок, тут тільки 3 можливих функцій!!!')
+    print('Гей, придурок, тут тільки 3 можливих функції!!!')
