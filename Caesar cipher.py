@@ -3,7 +3,7 @@ while i:
     alpha = ' abcdefghijklmnopqrstuvwxyzQWERTYUIOPASDFGHJKLZXCVBNM0123456789'
     step = 2
     step1 = 1
-    text = input("Please write your text ").strip()
+    text = input("Please write your text: ").strip()
     res = ''
     digit = ''
     for c in text:
