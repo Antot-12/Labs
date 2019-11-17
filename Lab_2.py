@@ -1,18 +1,18 @@
 def countstr(text_to_count):
     res = {}
-    for letter in text_to_count:
+    text_to_count_lower = text_to_count.lower()
+    unique_letters = set(text_to_count_lower)
+    for letter in unique_letters:
         if letter.isalpha():
-            res[letter] = text_to_count.count(letter)
+            res[letter] = text_to_count_lower.count(letter)
     for k in sorted(res):
         print(k + ":" + str(res[k]))
 
 
 def sort_text(text_to_sort):
-    words = text_to_sort.split()
-    wordsDict = dict.fromkeys(words, 1)
-    wordsDict = sorted(wordsDict)
-    print(wordsDict)
-
+    words = text_to_sort.lower().split()
+    unique_words = sorted(dict.fromkeys(words, 1))
+    print(unique_words)
 
 def main():
     while True:
